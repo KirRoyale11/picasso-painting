@@ -43,18 +43,6 @@
     display: grid;
 }
 
-.second-pane {
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
-    margin-top: -300px;
-    margin-left: 150px;
-    background-color: plum;
-    color: yellowgreen;
-    border: 5px solid yellowgreen;
-    margin: 5px 5px;
-}
-
 .circle1 {
     height: 200px;
     width: 200px;
