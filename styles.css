@@ -1,8 +1,7 @@
 * { padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: plum;
-    
+    background-color: plum;   
 }
 
 
@@ -22,20 +21,20 @@
     margin: 5px 5px;
     display: grid;
 }
+
 .base-shape1 {
     height: 200px;
     width: 23%;
-   
     }
+
 .base-shape2 {
     height: 100px;
     width: 20%;
-  
     }
+
 .base-shape3 {
     height: 70px;
     width: 35%;
-  
 }
 
 .circle1,
@@ -65,20 +64,17 @@
     height: 100px;
     width: 100px;
     margin-top: -300px;
-    margin-left: 370px;
-    
+    margin-left: 370px;  
 }
 
 .circle4 {
     height: 400px;
     width: 400px;
     margin-top: -300px;
-    margin-left: 550px;
-    
+    margin-left: 550px; 
 }
 
 form {
-    
     display: flex;
     gap: 5px;
     margin: 20px;
@@ -86,13 +82,10 @@ form {
 }
 
 .sub-button {
-    
     box-align: center;
     text-align:center;
     background-color: darkcyan;
     border: 3px solid yellow;
     padding: 5px;
     border-radius: 25%;
-
-
 }
