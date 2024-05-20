@@ -1,0 +1,13 @@
+* {
+    background-color: plum;
+    display: flex;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: midnightblue;
+    color: yellowgreen;
+    border: 5px solid yellowgreen;
+}
