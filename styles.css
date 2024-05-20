@@ -12,29 +12,9 @@
     gap: 10px;
 }
 
-.base-shape1 {
-    height: 200px;
-    width: 23%;
-    border-radius: 50px;
-    background-color: midnightblue;
-    color: yellowgreen;
-    border: 5px solid yellowgreen;
-    margin: 5px 5px;
-    display: grid;
-    }
-.base-shape2 {
-    height: 100px;
-    width: 20%;
-    border-radius: 50px;
-    background-color: midnightblue;
-    color: yellowgreen;
-    border: 5px solid yellowgreen;
-    margin: 5px 5px;
-    display: grid;
-    }
+.base-shape1,
+.base-shape2,
 .base-shape3 {
-    height: 70px;
-    width: 35%;
     border-radius: 50px;
     background-color: midnightblue;
     color: yellowgreen;
@@ -42,50 +22,59 @@
     margin: 5px 5px;
     display: grid;
 }
-
-.circle1 {
+.base-shape1 {
     height: 200px;
-    width: 200px;
+    width: 23%;
+   
+    }
+.base-shape2 {
+    height: 100px;
+    width: 20%;
+  
+    }
+.base-shape3 {
+    height: 70px;
+    width: 35%;
+  
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4 {
     border-radius: 50%;
-    margin-top: -250px;
-    margin-left: 70px;
     background-color:palevioletred;
     position: absolute;
     z-index: 10;
+}
+.circle1 {
+    height: 200px;
+    width: 200px;
+    margin-top: -250px;
+    margin-left: 70px;
 }
 
 .circle2 {
     height: 100px;
     width: 100px;
-    border-radius: 50%;
     margin-top: -350px;
-    margin-left: 200px;
-    background-color:palevioletred;
-    position: absolute;
-    z-index: 10;
+    margin-left: 200px;  
 }
 
 .circle3 {
     height: 100px;
     width: 100px;
-    border-radius: 50%;
     margin-top: -300px;
     margin-left: 370px;
-    background-color:palevioletred;
-    position: absolute;
-    z-index: 10;
+    
 }
 
 .circle4 {
     height: 400px;
     width: 400px;
-    border-radius: 50%;
     margin-top: -300px;
     margin-left: 550px;
-    background-color:palevioletred;
-    position: absolute;
-    z-index: 10;
-    overflow:hidden;
+    
 }
 
 form {
