@@ -1,91 +1,92 @@
-* { padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: plum;   
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: plum;
 }
 
-
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
 .base-shape1,
 .base-shape2,
 .base-shape3 {
-    border-radius: 50px;
-    background-color: midnightblue;
-    color: yellowgreen;
-    border: 5px solid yellowgreen;
-    margin: 5px 5px;
-    display: grid;
+  border-radius: 50px;
+  background-color: midnightblue;
+  color: yellowgreen;
+  border: 5px solid yellowgreen;
+  margin: 5px 5px;
+  display: grid;
 }
 
 .base-shape1 {
-    height: 200px;
-    width: 23%;
-    }
+  height: 200px;
+  width: 23%;
+}
 
 .base-shape2 {
-    height: 100px;
-    width: 20%;
-    }
+  height: 100px;
+  width: 20%;
+}
 
 .base-shape3 {
-    height: 70px;
-    width: 35%;
+  height: 70px;
+  width: 35%;
 }
 
 .circle1,
 .circle2,
 .circle3,
 .circle4 {
-    border-radius: 50%;
-    background-color:palevioletred;
-    position: absolute;
-    z-index: 10;
+  border-radius: 50%;
+  background-color: palevioletred;
+  position: absolute;
+  z-index: 10;
 }
 .circle1 {
-    height: 200px;
-    width: 200px;
-    margin-top: -250px;
-    margin-left: 70px;
+  height: 200px;
+  width: 200px;
+  margin-top: -250px;
+  margin-left: 70px;
 }
 
+.circle2,
+.circle3 {
+  height: 100px;
+  width: 100px;
+}
 .circle2 {
-    height: 100px;
-    width: 100px;
-    margin-top: -350px;
-    margin-left: 200px;  
+  margin-top: -350px;
+  margin-left: 200px;
 }
 
 .circle3 {
-    height: 100px;
-    width: 100px;
-    margin-top: -300px;
-    margin-left: 370px;  
+  margin-top: -300px;
+  margin-left: 370px;
 }
 
 .circle4 {
-    height: 400px;
-    width: 400px;
-    margin-top: -300px;
-    margin-left: 550px; 
+  height: 400px;
+  width: 400px;
+  margin-top: -300px;
+  margin-left: 550px;
 }
 
 form {
-    display: flex;
-    gap: 5px;
-    margin: 20px;
-    z-index: 100;
+  display: flex;
+  gap: 5px;
+  margin: 20px;
+  z-index: 100;
 }
 
 .sub-button {
-    box-align: center;
-    text-align:center;
-    background-color: darkcyan;
-    border: 3px solid yellow;
-    padding: 5px;
-    border-radius: 25%;
+  box-align: center;
+  text-align: center;
+  background-color: darkcyan;
+  border: 3px solid yellow;
+  padding: 5px;
+  border-radius: 25%;
 }
